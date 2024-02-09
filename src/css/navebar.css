@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body 
+{
+    width: 100%;
+}
+
+.navebarmaindiv
+{
+    width: 100%;
+    height: 80px;
+    background-color: hotpink;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: -5px -5px 5px rgba(183, 163, 245, 0.852);
+}
+.navebarlist
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 12.5px;
+    margin-left: 15px;
+}
+.navebarlist li 
+{
+    list-style-type: none;
+}
+#naveimg
+{
+    height: 40px;
+    width: 70px;
+}
+.removelinkline
+{
+    text-decoration: none;
+}
+

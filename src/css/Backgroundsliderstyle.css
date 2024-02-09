@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+}
+#backgroundsliderbox
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 3px;
+    /* border: 1px solid red ; */
+    box-shadow: -5px -5px 5px rgb(228, 193, 193);
+}
+#backgroundsliderbox
+{
+    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/6cd4bdab7ee0d250.jpg?q=20");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: anant;
+    animation-duration: 15s;
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes anant { 
+    0%{background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/6cd4bdab7ee0d250.jpg?q=20");}
+    20%{background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/fb2dffbae787c101.jpg?q=20");}
+    50%{background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/739ed527dbf977fe.jpg?q=20");}
+    100%{background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/8296c622899df7e0.jpg?q=20");}
+}

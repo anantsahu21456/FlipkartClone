@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    width: 100%;
+}
+.mobilecontainer
+{
+    width: 1250px;
+    height: 300px;
+    margin-left: 10px;
+    border: 1px solid red;
+    display: flex;
+    box-shadow: 5px -3px 5px -1px rgba(0, 0, 255, .2);
+}
+.divforphone
+{
+    width: 350px;
+    height: 280px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    box-shadow: 5px -3px 5px -1px rgba(0, 0, 255, .2);
+}
