@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FlipkartClone/static/css/main.ffc73664.css",
+    "main.js": "/FlipkartClone/static/js/main.dbb8a26d.js",
+    "index.html": "/FlipkartClone/index.html",
+    "main.ffc73664.css.map": "/FlipkartClone/static/css/main.ffc73664.css.map",
+    "main.dbb8a26d.js.map": "/FlipkartClone/static/js/main.dbb8a26d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffc73664.css",
+    "static/js/main.dbb8a26d.js"
+  ]
+}
