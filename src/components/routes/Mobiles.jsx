@@ -1,12 +1,33 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Mobilechildcomponent from '../mobilechildcomponent';
-import Mobilestyle from '../../css/Mobilestyle.css' 
+import Mobilestyle from '../../css/Mobilestyle.css'
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 
 function Mobiles() {
+
+  let [mobile, setmobile] = useState([])
+
+  useEffect(() => {
+    async function Mobile() {
+      let mobiledata = await axios.get('http://localhost:4000/api/mobile')
+      console.log(mobiledata.data)
+      setmobile(mobiledata.data)
+    }
+    Mobile()
+  }, []);
   return (
     <div>
+
+      {
+        mobile.map(({ model }) => {
+          return model
+
+        })
+      }
+
       <div className='mobilecontainer'>
         <div className='divforphone'>
           <Link to='mobilechildcomponent'>
@@ -14,7 +35,7 @@ function Mobiles() {
             <h3>Rs69,999</h3>
             <p>onepluse 12 series</p>
           </Link>
-          <Outlet/>
+          <Outlet />
           <p>check on flipkart official web.👉, <a href="https://www.flipkart.com/search?q=mobiles%20on%20onepluse&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> click here</a>    </p>
         </div>
 
@@ -39,8 +60,6 @@ function Mobiles() {
           </Link>
         </div>
       </div>
-
-
 
     </div>
   )

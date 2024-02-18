@@ -18,9 +18,16 @@ function SignUp() {
     e.preventDefault();
   
     let backend=async()=>{
-     let result =  await axios.post("http://localhost:4000/api/formdata/addformdatas",userdata)
-     console.log(result)
-      console.log(userdata)
+    try
+    {
+      let result =  await axios.post("http://localhost:4000/api/formdata/addformdatas",userdata)
+      console.log(result)
+       console.log(userdata)
+    }
+    catch(err)
+    {
+      console.log("Error",err)
+    }
     }
     backend()
   }
