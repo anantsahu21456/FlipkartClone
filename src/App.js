@@ -17,6 +17,8 @@ import Mobilechildcomponent from "./components/mobilechildcomponent";
 import SigninPage from "./components/SigninPage";
 import SignUp from "./components/SignUp";
 import Surprise from "./components/routes/Surprise";
+import Footer from "./components/Footer";
+import Contact from "./components/contact";
 
 // backend start----------------------------------->
 
@@ -46,9 +48,15 @@ function App() {
        </BrowserRouter>
        <Backgroundslider/>
        <Someproduct/>
-      
+       <Contact/>
+       <Footer/>
+       
+       
     </div>
   );
 }
 
 export default App;
+
+// <Contact/>
+    

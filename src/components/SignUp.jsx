@@ -16,7 +16,7 @@ function SignUp() {
   {
     console.log("okay")
     e.preventDefault();
-  
+   
     let backend=async()=>{
     try
     {
@@ -30,6 +30,7 @@ function SignUp() {
     }
     }
     backend()
+    
   }
 
 
@@ -64,7 +65,7 @@ function SignUp() {
               <h3>today top ads</h3>
               <h1>Top Selling Smartphones</h1>
               <p>Latest Technology,Best Brands </p>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqK2esvVvrqlHEKlZEA1xjE9QPxHqPprC2w&usqp=CAU" alt="" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQplAP6Jp-lkZBmq1O-EYcI9dsjG33ORCdFwQ&usqp=CAU" alt="" />
               </div> </Link>
               
 

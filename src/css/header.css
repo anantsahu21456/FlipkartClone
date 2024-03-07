@@ -21,7 +21,7 @@ html body{
 .forimage
 {
     height: 40px;
-    width: 140px;
+    width: 80px;
     border-radius: 20px;
 }
 .searcharea
@@ -42,7 +42,7 @@ html body{
 {
     /* background-color: sandybrown; */
     text-decoration: none;
-    width: 70px;
+    width: 180px;
     height: 30px;
     border-radius: 20px;
 }

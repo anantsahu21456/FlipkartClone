@@ -20,13 +20,35 @@ function Mobiles() {
   }, []);
   return (
     <div>
+      <h5 className='prime'>some content based on mobile</h5>
+      {mobile.map(({ brand, image, model, color, display_size, RAM, storage, main_camera_resolution, front_camera_resolution, battery_capacity, price }) => (
+        <div key={model} className="mobilebackend">
+          <div>
+          <img className='image' src={image} alt="" />
+          </div>
+          
+         <div className='dataaboutmobile'>
+          <h6>brand - {brand}</h6> <br />
+          <h6>model - {model}</h6><br />
+          <h6>color - {color}</h6><br />
+          <h6>display_size - {display_size}</h6><br />
+          <h6>RAM - {RAM}</h6><br />
+          </div> <br />
 
-      {
-        mobile.map(({ model }) => {
-          return model
+          <div className='dataaboutmobile'>
+          <h6>storage - {storage}</h6><br />
+          <h6>main_camera_resolution - {main_camera_resolution}</h6><br />
+          <h6>front_camera_resolution - {front_camera_resolution}</h6><br />
+          <h6>battery_capacity - {battery_capacity}</h6><br />
+          <h6>price - {price}</h6><br />
 
-        })
-      }
+          </div>
+         
+       <button className='buttondesign'> add to cart</button>
+       
+         </div>
+          
+      ))}
 
       <div className='mobilecontainer'>
         <div className='divforphone'>

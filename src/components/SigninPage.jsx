@@ -32,7 +32,7 @@ function SigninPage() {
 
          <div className='buttoncontent'>
             <button type="submit"> Login </button>
-            <button> <Link to='/SignUp'> sign up</Link></button>
+            <button> <Link to='/SignUp'>create account</Link></button>
          </div>
             </form>
          

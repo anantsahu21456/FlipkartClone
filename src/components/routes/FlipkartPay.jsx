@@ -3,7 +3,7 @@ import React from 'react'
 function FlipkartPay() {
   return (
     <div>
-        <h2>u can pay here </h2>
+        <h5 className='todaysdeals'>u can pay here </h5>
       
     </div>
   )
