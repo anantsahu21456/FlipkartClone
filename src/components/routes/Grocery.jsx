@@ -29,10 +29,13 @@ useEffect(()=>
           <h6>description - {description}</h6> <br />
           <h6>category - {category}</h6><br />
           <h6>quantity - {quantity}</h6><br />
+          </div> <br />
+
+          <div className='dataaboutmobile'>
           <h6>unit - {unit}</h6><br />
           <h6>price_per_unit - {price_per_unit}</h6><br />
           <h6>currency - {currency}</h6><br />
-          </div> <br />
+          </div>
          
        <button className='buttondesign'> add to cart</button>
        
